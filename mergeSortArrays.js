@@ -15,6 +15,7 @@ function mergeSortedArrays(m, n) {
         }
     }
     console.log(newArray);
+    //Represent how many times loop has run
     console.log(count);
 }
 //with while loop O(m+n)
@@ -41,6 +42,7 @@ function mergeSortedArrays2(m, n){
        }
     }
     console.log(newArr);
+    //Represent how many times loop has run
     console.log(count);
 } 
 mergeSortedArrays([2, 3, 4], [1, 2]);
