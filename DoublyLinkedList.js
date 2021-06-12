@@ -83,13 +83,7 @@ class DoublyLinkedList {
 const myLinkedList = new DoublyLinkedList(10);
  myLinkedList.append(5);
   myLinkedList.append(16);
-//   myLinkedList.prepend(8);
-//   myLinkedList.prepend(1);
-// myLinkedList.prepend(2);
   myLinkedList.insert(3,99);
   myLinkedList.remove(6);
-//  myLinkedList.insert(2,233);
-//  console.log(myLinkedList);
 console.log(myLinkedList.printList());
-// myLinkedList.remove(6);
-// console.log(myLinkedList.printList());
+myLinkedList.remove(6);
