@@ -43,9 +43,8 @@ class LinkedList {
         }
         var leaderNode = this.traverseLinkedList(index - 1);
         const newNode = new NodeClass(value);
-        var prevNode = leaderNode.next;
+        newNode.next = leaderNode.next;
         leaderNode.next = newNode;
-        newNode.next = prevNode;
         this.length++;
     }
     remove(index){
@@ -84,11 +83,15 @@ class LinkedList {
 const myLinkedList = new LinkedList(10);
  myLinkedList.append(5);
   myLinkedList.append(16);
+  console.log(myLinkedList.printList());
+  myLinkedList.remove(2);
+  console.log(myLinkedList.printList());
+
  myLinkedList.prepend(1);
  myLinkedList.prepend(2);
  myLinkedList.insert(2,99);
  myLinkedList.insert(2,233);
 
-console.log(myLinkedList.printList());
-myLinkedList.reverse();
-console.log(myLinkedList.printList());
+ console.log(myLinkedList.printList());
+// myLinkedList.reverse();
+// console.log(myLinkedList.printList());

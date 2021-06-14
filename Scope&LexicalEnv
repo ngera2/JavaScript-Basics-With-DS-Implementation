@@ -1,0 +1,8 @@
+function c(){
+    d();
+    function d(){
+      console.log(b);
+    }
+}
+const b = 11;
+c();
