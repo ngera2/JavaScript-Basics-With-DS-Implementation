@@ -1,5 +1,7 @@
-let myName = "Nishant";
 console.log(myName);
+
+let myName = "Nishant";
+
 myName = 453;
 console.log(myName);
 

@@ -1,5 +1,3 @@
-console.log("My First Program");
-
 class MyArray {
     constructor() {
         this.length = 0;

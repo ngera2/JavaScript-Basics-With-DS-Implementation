@@ -8,9 +8,9 @@ function firstRecurringEle(arg) {
     else{
        return arg[i];
     }
-    }
+  }
 }
-//using obj
+//using object
 function firstRecurringEle2(arg) {
     var newMap = {}; 
     for (var i = 0; i < arg.length; i++) {
